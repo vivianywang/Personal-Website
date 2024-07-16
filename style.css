@@ -1,0 +1,82 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+main{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+body {
+ background-color: #f0eeffff; 
+  text-align: center;
+}
+
+/* STYLE TEXT */
+.name{
+  font-family: "Verdana";
+  font-weight: bold;
+  font-size: 50px
+  color: #74129cff;
+  text-align: left;
+}
+
+h1 {
+  font-family: "Verdana";
+  font-weight: bold;
+  font-size: 50px;
+  color: #74129cff;
+}
+
+h2{
+  font-family: "Verdana";
+  font-size: 25px;
+  text-align: center;
+  color: #91257bff;
+  border: 3px solid;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Courier New";
+}
+/* STYLE IMAGES */
+img{
+  max-width: 50%;
+}
+
+.me{
+  max-width: 50%;
+  border-radius: 5%;
+  border: 5px solid white;
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #74129cff;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  font-family: "Courier New";
+  font-weight: bold;
+  color: #d3d3d3;
+  padding: 3em;
+}
+
+li a:hover {
+  color: grey
+}
